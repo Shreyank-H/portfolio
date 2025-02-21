@@ -5,7 +5,7 @@ from telegram import Bot
 import os
 import asyncio
 # Binance Announcements URL
-BINANCE_ANNOUNCEMENT_URL = "https://www.binance.com/en/support/announcement"
+BINANCE_ANNOUNCEMENT_URL = "https://www.binance.com/en/support/announcement/list"
 
 # Telegram Bot Credentials
 TELEGRAM_TOKEN = '7706675741:AAGusazMVZZpMPNC3oNCp58VDDdnmLGRADA'
