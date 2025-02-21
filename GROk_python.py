@@ -8,8 +8,8 @@ import asyncio
 BINANCE_ANNOUNCEMENT_URL = "https://www.binance.com/en/support/announcement/list/48"
 
 # Telegram Bot Credentials
-TELEGRAM_TOKEN = '7706675741:AAGusazMVZZpMPNC3oNCp58VDDdnmLGRADA'
-CHAT_ID = '1086859780'
+TELEGRAM_TOKEN = os.getenv(TELEGRAM_BOT_TOKEN)
+CHAT_ID = os.getenv(TELEGRAM_CHAT_ID)
 
 if not TELEGRAM_TOKEN:
     raise ValueError("Missing TELEGRAM_BOT_TOKEN environment variable!")
